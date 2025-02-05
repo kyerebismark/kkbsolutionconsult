@@ -1,0 +1,111 @@
+<?php
+
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <section class="container">
+
+        <header>
+            <div class="hd">
+                <img class="gh" src="ghana coat of arms.jpeg" alt="">
+                <h1><u>Birth Certificate Form</u></h1>
+            </div>
+        </header>
+        <form action="#" method="post" class="form">
+            <div class="input-box">
+                <label for="firstname">First Name</label>
+                <input type="text" name="firstname" placeholder="Eg. Kyere">
+
+            </div>
+
+            <div class="input-box">
+                <label for="lastname">Last Name</label>
+                <input type="text" name="lastname" placeholder="Eg. Bismark" required>
+            </div>
+
+            <div class="input-box">
+                <label for="contact">Contact</label>
+                <input type="text" name="contact" placeholder="Eg. 0552749277" required>
+            </div>
+
+            <div class="main-gender">
+                <div class="gender"><label>Gender</label></div>
+                <input type="radio" name="Malegender" required>
+                <label for="pob">Male</label>
+
+                <input type="radio" name="Femalgender" required>
+                <label for="pob">Female</label>
+            </div>
+
+            <div class="dobpob">
+                <div class="input-box">
+                    <label for="dob">Date of Birth</label>
+                    <input type="date" name="dob" placeholder="" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="pob">Place of Birth</label>
+                    <input type="text" name="pob" placeholder="Eg. Accra" required>
+                </div>
+
+
+            </div>
+            <p>Mother Details</p>
+            <div class="input-box">
+                <label for="mname">Mother Name</label>
+                <input type="text" name="mothername" placeholder="" required>
+            </div>
+            <div class="column">
+                <div class="input-box">
+                    <label for="occupation">Occupation</label>
+                    <input type="text" name="occupation" placeholder="Eg. Famer" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="nationality">Nationality</label>
+                    <input type="text" name="mothernationality" placeholder="Eg. Ghanaian" required>
+                </div>
+            </div>...away
+
+            <p>Father Details</p>
+            <div class="input-box">
+                <label for="fname">Father Name</label>
+                <input type="text" name="fathername" placeholder="" required>
+            </div>
+            <div class="column">
+                <div class="input-box">
+                    <label for="occupation">Occupation</label>
+                    <input type="text" name="fatheroccupation" placeholder="Eg. Famer" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="nationality">Nationality</label>
+                    <input type="text" name="fathernationality" placeholder="Eg. Ghanaian" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="date">To Day's Date</label>
+                    <input type="date" name="date" placeholder="Eg. To day's Date" required>
+                </div>
+            </div>
+            For more info call Mr. Kyere Bismark on 0552749277
+            <button>
+                <a title="print screen" alt="print srceen" onclick="window.print();
+            " target="_blank" style="cursor: pointer;">Print</a>
+            </button>
+
+        </form>
+    </section>
+</body>
+
+</html>

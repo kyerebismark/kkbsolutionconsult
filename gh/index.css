@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins","sans-serif";
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(130, 106, 251);
+}
+.container{
+    position: relative;
+    max-width: 700px;
+    width: 100%;
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+.container header{
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: 500;
+    text-align: center;
+    display: inline;
+    display: flex;
+    flex-direction: row;
+}
+.hd{
+    margin-left: 90px;
+}
+.container .form{
+    margin-top: 30px;
+}
+.form .input-box{
+width: 100%;
+margin-top: 20px;
+}
+.input-box label{
+    color: #333;
+
+}
+.gh{
+    border-radius: 7px;
+    width: 45px;
+    height: 35px;
+    display: inline;
+    margin: 0;
+}
+.form .input-box input{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    font-size: 1rem;
+    color: #707070;
+    margin-top: 8px;
+    outline: none;
+    border: 1px solid #add;
+    border-radius: 8px;
+    padding: 0 15px ;
+}
+.form .column,.dobpob{
+display: flex;
+column-gap: 15px;
+}
+p{
+    margin-top: 19px;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+
+}
+.gender{
+    font-weight: bold;
+    margin-top: 7px;
+    font-size: 18px;
+    
+}
+
+    button{
+        background-color: rgb(130, 106, 251);
+        width: 100%;
+        height: 55px;
+        border: 1px solid black;
+        border-radius: 9px;
+        margin-top: 7px; 
+        font-size: 29px;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+    .error{
+        color: red;
+    }
+    button:hover{
+        background-color: black;
+        color: rgb(130, 106, 251);
+    }
+
+/*Reponsive*/
+@media screen and (max-width: 500px){
+.form .column /*.dobpob*/{
+    flex-wrap: wrap;
+}
+@media print{
+    .input-box{
+        color: red;
+    }
+}
+}
